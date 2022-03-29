@@ -5,12 +5,12 @@ Cell doubling time calculator and Growth Curve plotter
 ## Introduction
 
 The script has terminal-like "GUI" which enables easy import of your data.
+The time calculated can be in hours or minutes.
+The average (mean) time of the samples can also be calculated if wanted.
 
 ## How to use
 
 Can use it with any IDE or a terminal.
-The time calculated can be in hours or minutes.
-The average (mean) time of the sample can also be calculated if wanted.
 
 If using a terminal, then:
 1) Open a terminal and cd to your directory where the script is
