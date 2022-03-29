@@ -1,7 +1,7 @@
 #!/usr/bin/python
 """
-
 @author: Paulina Frolovaite
+Please credit when necessary
 """
 
 from tkinter import filedialog
