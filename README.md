@@ -20,4 +20,4 @@ If using a terminal, then:
 ## Data
 
 The script accepts only Excel files (at least for now).
-The time must be in hours and the first column of the file
+The `time` must be in hours and the first column of the file
