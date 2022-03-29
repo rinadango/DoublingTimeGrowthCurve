@@ -15,7 +15,7 @@ Can use it with any IDE or a terminal.
 If using a terminal, then:
 1) Open a terminal and cd to your directory where the script is
 2) Write `python doubling_time.py`
-3) Follow the instruction that appear in the terminal
+3) Follow the instructions that appear in the terminal
 
 ## Data
 
