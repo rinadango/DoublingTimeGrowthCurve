@@ -45,11 +45,7 @@ def doubling_time_cell_growth_curve(table, time_format: str):
     cells_y = table.drop(table.columns[0],axis = 1)
     colls = cells_y.columns
 
-    _names = []
-
     for i in colls:
-        
-        _names.append(i)
         
         k = cells_y[[i]].to_numpy()
         #print(k)
@@ -78,11 +74,11 @@ def doubling_time_cell_growth_curve(table, time_format: str):
             print(f'Doubling time for {i}:', Td)
     
     if time_format == 'm':
-        plt.plot(minutes, cells_y, label = _names, marker = 'o')
+        plt.plot(minutes, cells_y, label = colls, marker = 'o')
         plt.scatter(cells_y)
         plt.xlabel('Time (mins)')
     else: 
-        plt.plot(x_time, cells_y, label = _names, marker = 'o')
+        plt.plot(x_time, cells_y, label = colls, marker = 'o')
         plt.xlabel('Time (h)')
         
     plt.legend(colls)   
